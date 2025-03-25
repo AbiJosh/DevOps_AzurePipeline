@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+    font-family: 'Brush Script MT', cursive;
+    background: linear-gradient(to bottom, #007000, #004000);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px; /* Increased padding to move content down */
+}
+
+/* Logo Styling */
+.logo-container {
+    text-align: left;
+}
+
+.logo {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #222;
+}
+
+/* Move the main content further down */
+main {
+    margin-top: 50px; /* Added margin to shift everything down */
+}
+
+/* Cards Section */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 80px 0 50px; /* Increased margin-top to move down */
+}
+
+.card {
+    background: black;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    width: 160px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Description Section */
+.description {
+    width: 70%;
+    margin: 50px auto 0; /* Added margin-top to push text down */
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.description ul {
+    list-style: none;
+    padding: 0;
+}
+
+.description li {
+    margin: 8px 0;
+    font-weight: bold;
+}
